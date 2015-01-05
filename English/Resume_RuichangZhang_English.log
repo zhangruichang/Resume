@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2013.9.11)  16 DEC 2014 21:15
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2013.9.11)  5 JAN 2015 20:29
 entering extended mode
 **Resume_RuichangZhang_English.tex
 (E:\FindingJob\Resume\English\Resume_RuichangZhang_English.tex
@@ -220,35 +220,35 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--111
+Underfull \hbox (badness 10000) in paragraph at lines 93--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--117
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
  4509 strings out of 495355
@@ -259,4 +259,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  29i,8n,21p,469b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Resume_RuichangZhang_English.dvi (2 pages, 13652 bytes).
+Output written on Resume_RuichangZhang_English.dvi (2 pages, 13008 bytes).

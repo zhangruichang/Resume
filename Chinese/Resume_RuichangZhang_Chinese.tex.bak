@@ -25,7 +25,7 @@
 \section{教育背景}
  计算机软件与理论硕士, {\bf 复旦大学}, 上海 \hfill 2012年9月$\sim$ 2015年6月
  \begin{itemize} \itemsep -1pt  % reduce space between items
- \item 上海市智能信息处理实验室, (\textbf{C语言~TA}), 导师：周水庚教授
+ \item 上海市智能信息处理实验室, (\textbf{C语言~TA}), 导师：周水庚教授 
  \end{itemize}
  计算机科学与技术学士, {\bf 上海大学}, 上海 \hfill  2008年9月$\sim$ 2012年6月
 \begin{itemize} \itemsep -1pt %reduce space between items
@@ -58,6 +58,13 @@
 \item 分析用户在网页上的有效浏览时间，并抽取网页的正文，内部实现了\textbf{网页正文抽取算法}。算法剔除html标签等正文无关内容，定义行块大小概念表示连续几行html文件的字符数，基于网页正文区域文字信息最密集的依据，将网页正文抽取问题转化为行块分布函数的骤升骤降边界点的确定。
 \item 生成语义完整的行为序列，序列以打开页面开始，随后包含左击，隐藏，激活等等行为，并最终以关闭页面结束。
 \item ~\url{https://github.com/zhangruichang/UserBehaviorCollect}
+\end{itemize}
+\begin{spacing}{1.4}
+\end{spacing}
+五子棋游戏 \hfill 2010年6月$\sim$2010年7月
+\begin{itemize}
+\item 用VB实现的具有\textbf{AI算法}的五子棋游戏
+\item \url{https://github.com/zhangruichang/Gobang}
 \end{itemize}
 \section{文章}
 \textbf{Ruichang Zhang}, Zhanzhan Cheng, Jihong Guan, Shuigeng Zhou*. ``Exploiting Topic Modeling to Boost Metagenomic Sequences Binning,'' \emph{10th International Symposium on Bioinformatics Research and Applications} (ISBRA 2014), vol.8492, LNCS, Springer.(\emph{12th Asia Pacific Bioinformatics Conference} (APBC2014), Poster.)\\

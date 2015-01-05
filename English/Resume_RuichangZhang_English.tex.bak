@@ -38,7 +38,7 @@
  {\bf Fudan University}, Master Degree in Computer Science\hfill Sep.2012$\sim$Jun.2015
  \begin{itemize} \itemsep -1pt  % reduce space between items
  \item Shanghai Key Lab of Intelligent Information Processing, \textbf{TA of C language programming}
- \item Advisor: Prof. Zhou Shuigeng
+ \item Advisor: Prof. Zhou Shuigeng 
  \end{itemize}
  {\bf Shanghai University}, Bachelor Degree in Computer Science\hfill Sep.2008$\sim$ Jun.2012
 \begin{itemize} \itemsep -1pt %reduce space between items
@@ -75,6 +75,13 @@ User Behavior Collecting and Analysing System \hfill Feb.2012$\sim$Jun.2012
 \item Analyze user's real browsing time on a page, and extract the content, including a \textbf{web page content extraction algorithm} inside. The algorithm first removes html tags which are not related to content, and defines the concept of line block size as the number of characters in several continuous lines, and extract the densest area as approximately content is the densest area in the html file.
 \item Generate complete sequences of actions, a sequence begins with opening a tab, followed by left-click, hiding, activating and finally ends with closing this tab
 \item \url{https://github.com/zhangruichang/UserBehaviorCollect}
+\end{itemize}
+Gobang Game \hfill Jun.2010$\sim$Jul.2010
+\begin{spacing}{0.1}
+\end{spacing}
+\begin{itemize}
+\item Gobang game including \textbf{AI algorithm} using Visual Basic
+\item \url{https://github.com/zhangruichang/Gobang}
 \end{itemize}
 \section{Publication}
 \textbf{Ruichang Zhang}, Zhanzhan Cheng, Jihong Guan, Shuigeng Zhou*. ``Exploiting Topic Modeling to Boost Metagenomic Sequences Binning,'' \emph{10th International Symposium on Bioinformatics Research and Applications} (ISBRA 2014), vol.8492, LNCS, Springer.(\emph{12th Asia Pacific Bioinformatics Conference} (APBC2014), Poster.)\\
