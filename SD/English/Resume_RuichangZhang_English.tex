@@ -29,7 +29,7 @@
 \setlength{\parskip}{0.1em}
 \section{Contact}
 %\begin{spacing}{1}
-\textbf{University:}~{\bf Fudan University}, Shanghai\hfill \textbf{Job Intension}:~Software Development, Data Mining \\
+\textbf{University:}~{\bf Fudan University}, Shanghai\hfill \textbf{Job Intension}:~Software Development\\
 \textbf{Email}:~zhangruichang112@gmail.com \hfill  \textbf{Phone}:~(+86) 150-0022-6997\\
 \textbf{Blog}: \url{http://zhangruichang.com} \hfill \textbf{Graduation Date}:~Jun. 2015\\
 \textbf{Personal Page}: \url{http://admis.fudan.edu.cn/~rczhang}
@@ -37,16 +37,52 @@
 \section{Education}
  {\bf Fudan University}, Master Degree in Computer Science\hfill Sep.2012$\sim$Jun.2015
  \begin{itemize} \itemsep -1pt  % reduce space between items
- \item Shanghai Key Lab of Intelligent Information Processing, \textbf{TA of C language programming}
- \item Advisor: Prof. Zhou Shuigeng 
+ \item Shanghai Key Lab of Intelligent Information Processing, \textbf{TA of C language programming}, Advisor: Prof. Zhou Shuigeng
  \end{itemize}
  {\bf Shanghai University}, Bachelor Degree in Computer Science\hfill Sep.2008$\sim$ Jun.2012
 \begin{itemize} \itemsep -1pt %reduce space between items
 \item GPA:~\textbf{3.678}/4, Rank:~\textbf{1}/227
 %\item GPA Ranking: 1/227
 \end{itemize}
-\section{Research and Interests}
-Machine learning, data mining. Interested in data structure and algorithm, read some parts of several classical books, such as Beauty of Programming, Programming Pearls, Introduction to Algorithm, etc.
+\section{Honors}
+%\begin{spacing}{1}
+\textbf{VMware Award}, \emph{Fudan University} \hfill2014\\
+\textbf{1st Prize in EMC Guru Contest}, \emph{EMC Corp.} \hfill2014\\
+\textbf{Tencent Innovation Award}, \emph{Fudan University} \hfill2013\\
+\textbf{First Class Scholarship}, \emph{Fudan University}\hfill2013\\
+\textbf{Shanghai Outstanding Graduate Student}, \emph{Shanghai University}\hfill 2011\\
+\textbf{Excellent League Member£¬Excellent Student}, \emph{Shanghai University}\hfill 2011\\
+\textbf{Guanghua Scholarship}, \emph{Shanghai University}\hfill 2011\\
+\textbf{Special Scholarship}, \emph{Shanghai University}\hfill 2009,2010,2011\\
+\textbf{Second Prize}, \emph{National Mathematics Contest for Undergraduate Student}\hfill 2009\\
+
+
+\section{Projects}
+Metagenomic Sequences Binning Based on Topic Model \hfill Sep.2013 $\sim$Mar.2014
+\begin{spacing}{0.02}
+\end{spacing}
+\begin{itemize}
+\item Exploit \textbf{SKWIC algorithm} to cluster metagenomic reads. SKWIC is a variant of K-means, which takes the weight of each feature to each cluster into consideration, thus boosting the performance of clustering. Compared to MPI-based MetaCluster and EM-based AbundanceBin, our method achieved better precision and sensitivity. Paper is published on IEEE journal \emph{TCBB}, and I gave a presentation on a conference.
+\item \url{https://github.com/zhangruichang/MCluster}
+\item Exploit \textbf{topic model-LDA}, k-mer represents word, sequence represents document. Firstly, extracting k-mer frequencies from sequences, then transforming reads from k-mer space to topic space, and finally clustering reads with SKWIC algorithm. In terms of Gibbs sampling converges slowly, using MPI-Gibbs sampling for training. Paper was accepted by a conference and \emph{BMC Bioinformatics}.
+\end{itemize}
+User Behavior Collecting and Analysing System \hfill Feb.2012$\sim$Jun.2012
+\begin{spacing}{0.1}
+\end{spacing}
+\begin{itemize}
+\item Windows app using C$\sharp$, monitor user's actions on IE browser, including mouse actions(left-click, right-click, double-click, etc) and tab actions(opening a tab, hiding, activating and closing the tab, etc)
+\item Analyze user's real browsing time on a page, and extract the content, including a \textbf{web page content extraction algorithm} inside. The algorithm first removes html tags which are not related to content, and defines the concept of line block size as the number of characters in several continuous lines, and extract the densest area as approximately content is the densest area in the html file.
+\item Generate complete sequences of actions, a sequence begins with opening a tab, followed by left-click, hiding, activating and finally ends with closing this tab
+\item \url{https://github.com/zhangruichang/UserBehaviorCollect}
+\end{itemize}
+\section{Publication}
+\textbf{Ruichang Zhang}, Zhanzhan Cheng, Jihong Guan, Shuigeng Zhou*. ``Exploiting Topic Modeling to Boost Metagenomic Sequences Binning,'' \emph{10th International Symposium on Bioinformatics Research and Applications} (ISBRA 2014), vol.8492, LNCS, Springer.(\emph{12th Asia Pacific Bioinformatics Conference} (APBC2014), Poster.)\\
+\begin{spacing}{0.2}
+\end{spacing}
+Ruiqi Liao, \textbf{Ruichang Zhang}, Jihong Guan, Shuigeng Zhou*. ``A New Unsupervised Binning Approach for Metagenomic Sequences Based on N-grams and Automatic Feature Weighting,'' \emph{IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)}, 11(1): 42-54 (2014).\\
+\begin{spacing}{0.2}
+\end{spacing}
+Hui Liu, \textbf{Ruichang Zhang}, Wei Xiong, Jihong Guan, Ziheng Zhuang, Shuigeng Zhou*. ``A Comparative Evaluation on Prediction Methods of Nucleosome Positioning,''  \emph{Briefings in Bioinformatics}, Doi: 10.1093/bib/bbt062, 2013.\\
 \section{Internship and Experience}
 %\begin{spacing}{1.2}
 \textbf{Nanyang Technological University}, Singapore \hfill Mar.2014$\sim$Aug.2014
@@ -58,57 +94,8 @@ Machine learning, data mining. Interested in data structure and algorithm, read 
 \begin{spacing}{1.5}
 \end{spacing}
 \textbf{EMC Summer Campus}, Shanghai \hfill Aug.2014
-\section{Projects}
-Metagenomic Sequences Binning Based on Topic Model \hfill Sep.2013 $\sim$Mar.2014
-\begin{spacing}{0.02}
-\end{spacing}
-\begin{itemize}
-\item Exploit \textbf{SKWIC algorithm} to cluster metagenomic reads. SKWIC is a variant of K-means, which takes the weight of each feature to each cluster into consideration, thus boosting the performance of clustering. Integrate C++ and Java codes of two members, and released two executables on Windows and Linux, paper is published on IEEE journal \emph{TCBB}, and give a presentation on a conference.
-\item \url{https://github.com/zhangruichang/MCluster}
-\item Exploit \textbf{topic model-LDA}, k-mer represents word, sequence represents document. Firstly, extracting k-mer frequencies from sequences, then transforming reads from k-mer space to topic space, and finally clustering reads with SKWIC algorithm. Paper was accepted by a conference and submitted to \emph{BMC Bioinformatics}.
-\end{itemize}
-User Behavior Collecting and Analysing System \hfill Feb.2012$\sim$Jun.2012
-\begin{spacing}{0.1}
-\end{spacing}
-\begin{itemize}
-\item Windows app using C$\sharp$, monitor user's actions on IE browser, including mouse actions(left-click, right-click, double-click, etc) and tab actions(opening a tab, hiding, activating and closing the tab, etc)
-\item Analyze user's real browsing time on a page, and extract the content, including a \textbf{web page content extraction algorithm} inside. The algorithm first removes html tags which are not related to content, and defines the concept of line block size as the number of characters in several continuous lines, and extract the densest area as approximately content is the densest area in the html file.
-\item Generate complete sequences of actions, a sequence begins with opening a tab, followed by left-click, hiding, activating and finally ends with closing this tab
-\item \url{https://github.com/zhangruichang/UserBehaviorCollect}
-\end{itemize}
-Gobang Game \hfill Jun.2010$\sim$Jul.2010
-\begin{spacing}{0.1}
-\end{spacing}
-\begin{itemize}
-\item Gobang game including \textbf{AI algorithm} using Visual Basic
-\item \url{https://github.com/zhangruichang/Gobang}
-\end{itemize}
-\section{Publication}
-\textbf{Ruichang Zhang}, Zhanzhan Cheng, Jihong Guan, Shuigeng Zhou*. ``Exploiting Topic Modeling to Boost Metagenomic Sequences Binning,'' \emph{10th International Symposium on Bioinformatics Research and Applications} (ISBRA 2014), vol.8492, LNCS, Springer.(\emph{12th Asia Pacific Bioinformatics Conference} (APBC2014), Poster.)\\
-\begin{spacing}{0.2}
-\end{spacing}
-Ruiqi Liao, \textbf{Ruichang Zhang}, Jihong Guan, Shuigeng Zhou*. ``A New Unsupervised Binning Approach for Metagenomic Sequences Based on N-grams and Automatic Feature Weighting,'' \emph{IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)}, 11(1): 42-54 (2014).\\
-\begin{spacing}{0.2}
-\end{spacing}
-Hui Liu, \textbf{Ruichang Zhang}, Wei Xiong, Jihong Guan, Ziheng Zhuang, Shuigeng Zhou*. ``A Comparative Evaluation on Prediction Methods of Nucleosome Positioning,''  \emph{Briefings in Bioinformatics}, Doi: 10.1093/bib/bbt062, 2013.\\
-\begin{spacing}{0.2}
-\end{spacing}
-Shusi Yu, \textbf{Ruichang Zhang}, Jihong Guan*. ``Properly and Automatically Naming Java Methods: A Machine Learning Based Approach,'' \emph{The 8th International Conference on Advanced Data Mining and Applications} ADMA 2012:235-246.
-
-\section{Honors}
-%\begin{spacing}{1}
-\textbf{VMware Award}, \emph{Fudan University} \hfill2014\\
-\textbf{1st Prize in EMC Guru Contest}, \emph{EMC Corp.} \hfill2014\\
-\textbf{Tencent Innovation Award}, \emph{Fudan University} \hfill2013\\
-\textbf{First Class Scholarship}, \emph{Fudan University}\hfill2013\\
-\textbf{Shanghai Outstanding Graduate Student}, \emph{Shanghai University}\hfill 2011\\
-\textbf{Excellent League Member}, \emph{Shanghai University}\hfill 2011\\
-\textbf{Excellent Student}, \emph{Shanghai University}\hfill 2011\\
-\textbf{Guanghua Scholarship}, \emph{Shanghai University}\hfill 2011\\
-\textbf{Special Scholarship}, \emph{Shanghai University}\hfill 2011\\
-\textbf{First Scholarship}, \emph{Shanghai University}\hfill 2009, 2010\\
-\textbf{Second Prize}, \emph{National Mathematics Contest for Undergraduate Student}\hfill 2009\\
-
+\section{Research and Interests}
+Algorithm and distributed computing. Interested in data structure and algorithm, read some parts of several classical books, such as Beauty of Programming, Programming Pearls, Introduction to Algorithm, etc.
 \section{Skills}
 %\begin{spacing}{1}
 \textbf{Computer Languages}:~C++$>$C$>$C$\sharp$ = Visual Basic = Java = Matlab,etc\\
