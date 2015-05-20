@@ -33,43 +33,40 @@
 %\item GPA Ranking: 1/227
 \end{itemize}
 \section{研究兴趣}
-\textbf{机器学习，数据挖掘}。翻阅了几本经典的计算机书籍，包括编程之美，编程珠玑，算法导论等，对算法、数据结构较感兴趣
+\textbf{数据挖掘， 算法}。
 \section{实习}
 %\begin{spacing}{1.2}
 新加坡\textbf{南洋理工大学}，\textbf{数据挖掘项目}\hfill 2014年3月$\sim$2014年8月
 \begin{itemize}
-\item 提取合成致死基因对相关的特征，包括蛋白质网络拓扑结构、TCGA基因表达数据等，针对人类已有的合成致死对数量较少，以及没有可靠负样本的情况，采用\textbf{PU learning} 对已有的样本进行训练，通过在酵母的数据集上进行验证，来验证提取的特征以及PU learning方法的有效性。
+\item 提取合成致死基因对相关的特征，针对人类已有的合成致死对数量较少，以及没有可靠负样本的情况，采用\textbf{PU learning} 对已有的样本进行训练。
 \end{itemize}
-\begin{spacing}{1.5}
-\end{spacing}
-\textbf{EMC 夏令营}, 上海 \hfill 2014年8月
+%\begin{spacing}{1.5}
+%\end{spacing}
+\textbf{爱奇艺数据挖掘工程师}, 上海 \hfill 2015年5月
 \section{项目}
-基于主题模型和聚类算法的宏基因组归类问题研究 \hfill 2013年9月$\sim$2014年3月
+基于主题模型和深度学习的宏基因组归类问题研究 \hfill 2013年9月$\sim$2014年3月
 \begin{itemize}
-\item 采用\textbf{SKWIC聚类算法}对元基因组序列聚类, SKWIC在K-means基础上，额外考虑了每个feature对于每个cluster的一个权重，使得clustering效果更加显著。整合两个项目成员的Java 和C++ 代码，发布了Windows 和Linux 上运行的两个可执行程序, 文章发表在IEEE 的TCBB 期刊上，在会议上做oral presentation
+\item 采用\textbf{SKWIC聚类算法}对元基因组序列聚类, SKWIC在K-means基础上，额外考虑了每个特征对于每个cluster的权重，使得clustering效果更加显著。文章发表在IEEE 的TCBB 期刊上。
 \item ~\url{https://github.com/zhangruichang/MCluster}
-\item 采用\textbf{主题模型-隐含狄利克雷分布(LDA)}，k-mer表示word，sequence表示\\document。首先从序列中抽取k-mer frequency，然后通过训练LDA 模型将k-mer 空间表示的序列变换为topic空间表示的序列，最后用SKWIC算法进行聚类。文章被会议接收并转投BMC Bioinformatics 期刊。
+\item 采用\textbf{主题模型-隐含狄利克雷分布(LDA)}。从序列中抽取$k$-mer frequency，然后通过训练LDA 模型将$k$-mer 空间表示的序列变换为topic空间表示的序列，最后用\textbf{SKWIC聚类算法}进行聚类。文章被会议接收并转投BMC Bioinformatics 期刊。
+\item 采用\textbf{深度学习}，用栈式自动编码机对$k$-mer特征进行特征学习，最后用\textbf{SKWIC 聚类算法}进行聚类。
 \end{itemize}
-\begin{spacing}{1.4}
+\begin{spacing}{1.0}
 \end{spacing}
 用户行为收集及分析系统 \hfill 2012年2月$\sim$2012年6月
 \begin{itemize}
-\item C$\sharp$实现的Windows app，监控用户在IE浏览器上的行为，包括鼠标行为(左击，右击，双击等)和标签页行为(打开一个页面，隐藏，关闭这个页面等)。
-\item 分析用户在网页上的有效浏览时间，并抽取网页的正文，内部实现了\textbf{网页正文抽取算法}。算法剔除html标签等正文无关内容，定义行块大小概念表示连续几行html文件的字符数，基于网页正文区域文字信息最密集的依据，将网页正文抽取问题转化为行块分布函数的骤升骤降边界点的确定。
-\item 生成语义完整的行为序列，序列以打开页面开始，随后包含左击，隐藏，激活等等行为，并最终以关闭页面结束。
+\item C$\sharp$~实现，监控用户在IE浏览器上的行为，分析用户在网页上的有效浏览时间，并抽取网页的正文，内部实现了\textbf{网页正文抽取算法}。算法剔除html标签等正文无关内容，定义行块大小概念表示连续几行html文件的字符数，基于网页正文区域文字信息最密集的依据，将网页正文抽取问题转化为行块分布函数的骤升骤降边界点的确定。
 \item ~\url{https://github.com/zhangruichang/UserBehaviorCollect}
 \end{itemize}
 \section{文章}
 \textbf{Ruichang Zhang}, Zhanzhan Cheng, Jihong Guan, Shuigeng Zhou*. ``Exploiting Topic Modeling to Boost Metagenomic Sequences Binning,'' \emph{10th International Symposium on Bioinformatics Research and Applications} (ISBRA 2014), vol.8492, LNCS, Springer.(\emph{12th Asia Pacific Bioinformatics Conference} (APBC2014), Poster.)\\
-\begin{spacing}{0.2}
+\begin{spacing}{0.5}
 \end{spacing}
 Ruiqi Liao, \textbf{Ruichang Zhang}, Jihong Guan, Shuigeng Zhou*. ``A New Unsupervised Binning Approach for Metagenomic Sequences Based on N-grams and Automatic Feature Weighting,'' \emph{IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)}, 11(1): 42-54 (2014).\\
-\begin{spacing}{0.2}
+\begin{spacing}{0.5}
 \end{spacing}
 Hui Liu, \textbf{Ruichang Zhang}, Wei Xiong, Jihong Guan, Ziheng Zhuang, Shuigeng Zhou*. ``A Comparative Evaluation on Prediction Methods of Nucleosome Positioning,''  \emph{Briefings in Bioinformatics}, Doi: 10.1093/bib/bbt062, 2013.\\
-\begin{spacing}{0.2}
-\end{spacing}
-Shusi Yu, \textbf{Ruichang Zhang}, Jihong Guan*. ``Properly and Automatically Naming Java Methods: A Machine Learning Based Approach,'' \emph{The 8th International Conference on Advanced Data Mining and Applications} ADMA 2012:235-246.
+
 \section{荣誉和竞赛}
 %\begin{spacing}{1}
 \textbf{威睿奖学金}, \emph{复旦大学} \hfill2014\\
@@ -77,15 +74,14 @@ Shusi Yu, \textbf{Ruichang Zhang}, Jihong Guan*. ``Properly and Automatically Na
 \textbf{腾讯微爱创新奖学金}, \emph{复旦大学} \hfill2013\\
 \textbf{硕士一等学业奖学金}, \emph{复旦大学}\hfill2013\\
 \textbf{上海市优秀毕业生}, \emph{上海大学}\hfill 2012\\
-\textbf{百优团员}, \emph{上海大学}\hfill 2011\\
-\textbf{优秀学生}, \emph{上海大学}\hfill 2011\\
+\textbf{百优团员, 优秀学生}, \emph{上海大学}\hfill 2011\\
+%\textbf{}, \emph{上海大学}\hfill 2011\\
 \textbf{光华奖学金}, \emph{上海大学}\hfill 2011\\
 \textbf{特等学业奖学金}, \emph{上海大学}\hfill 2011\\
-\textbf{一等学业奖学金}, \emph{上海大学}\hfill 2009, 2010\\
 \textbf{二等奖}, \emph{首届全国大学生数学竞赛}\hfill 2009\\
 \section{技能}
 %\begin{spacing}{1}
-\textbf{语言}:~C++ $>$ C $>$ Java = C$\sharp$ =Visual Basic = Matlab，etc\\
+\textbf{语言}:~C++ $>$ C $>$ Python = Matlab = Java = C$\sharp$ ，etc\\
 \textbf{工具和环境}:~Linux, \LaTeX, Git，etc\\
 \textbf{外语}:~英语, CET4 578，CET6 554\\
 
