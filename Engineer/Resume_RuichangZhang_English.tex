@@ -1,0 +1,112 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res}
+% the margin option causes section titles to appear to the left of body text
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{graphicx}
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Ruichang Zhang}
+ \iffalse
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{Address: Room 502, Yifu Building, \textbf{Fudan University}, 220 Handan Road, Shanghai 200433, China.}
+ %\moveleft.5\hoffset\centerline{}
+ %\moveleft.5\hoffset\centerline{}
+ \moveleft.5\hoffset\centerline{Phone: (+86) 150-0022-6997, Email: rczhang@fudan.edu.cn}
+%\moveleft.5\hoffset\centerline{}
+\moveleft.5\hoffset\centerline{Homepage: }%{http://admis.fudan.edu.cn/$\sim$rczhang}}
+\fi
+\begin{resume}
+\setlength{\parskip}{0.1em}
+\section{Contact}
+%\begin{spacing}{1}
+\textbf{University:}~{\bf Fudan University}, Shanghai\hfill \textbf{Job Intension}:~Software Development\\
+\textbf{Email}:~zhangruichang112@gmail.com \hfill  \textbf{Phone}:~(+86) 150-0022-6997\\
+\textbf{Blog}: \url{http://zhangruichang.com} \hfill \textbf{Graduation Date}:~Jun. 2015\\
+\textbf{Personal Page}: \url{http://admis.fudan.edu.cn/~rczhang}
+%\end{spacing}
+\section{Education}
+ {\bf Fudan University}, Master Degree in Computer Science\hfill Sep.2012$\sim$Jun.2015
+ \begin{itemize} \itemsep -1pt  % reduce space between items
+ \item Shanghai Key Lab of Intelligent Information Processing, \textbf{TA of C language programming}, Advisor: Prof. Zhou Shuigeng
+ \end{itemize}
+ {\bf Shanghai University}, Bachelor Degree in Computer Science\hfill Sep.2008$\sim$ Jun.2012
+\begin{itemize} \itemsep -1pt %reduce space between items
+\item GPA:~\textbf{3.678}/4, Rank:~\textbf{1}/227
+%\item GPA Ranking: 1/227
+\end{itemize}
+\section{Interests}
+Code and Algorithm. I am confident in my ability on data structure and algorithm , and also fond of coding.
+\section{Internship}
+%\begin{spacing}{1.2}
+\textbf{Nanyang Technological University}, Singapore \hfill Mar.2014$\sim$Aug.2014
+%\begin{spacing}{0.03}
+%\end{spacing}
+\begin{itemize}
+\item \textbf{Data mining project}. Large scale data processing project. Extract features related to synthetic lethality pairs(SLs), including PPI topological features and TCGA gene expression data. As synthetic lethality in human cancers are limited, and reliable negative samples are not available, exploit \textbf{PU learning} to train positive samples and test on abundant SLs in yeast to validate the effectiveness of features and PU learning method.
+\end{itemize}
+\begin{spacing}{1.5}
+\end{spacing}
+\textbf{EMC Summer Campus}, Shanghai \hfill Aug.2014
+\section{Projects}
+Metagenomic Sequences Binning Based on Topic Model \hfill Sep.2013 $\sim$Mar.2014
+\begin{spacing}{0.02}
+\end{spacing}
+\begin{itemize}
+\item Sub-Project1: Exploit \textbf{SKWIC algorithm} to cluster metagenomic reads. SKWIC is a variant of K-means, which takes the weight of each feature to each cluster into consideration, thus boosting the performance of clustering.
+\item My work: Integrate C++ and Java codes of two members, optimize and standardized codes.
+\item \url{https://github.com/zhangruichang/MCluster}
+\item Sub-Project2: Exploit \textbf{topic model-LDA}, k-mer represents word, sequence represents document. Firstly, extracting k-mer frequencies from sequences, then transforming reads from k-mer space to topic space, and finally clustering reads with SKWIC algorithm. 
+\item My work: All work, including coding and writing documents.
+\end{itemize}
+User Behavior Collecting and Analysing System \hfill Feb.2012$\sim$Jun.2012
+\begin{spacing}{0.1}
+\end{spacing}
+\begin{itemize}
+\item Project: This project aims to collect users' behavior and mine interests from history records.
+\item My work: Windows app using C$\sharp$, monitor user's actions on IE browser, including mouse actions(left-click, right-click, etc) and tab actions(opening, hiding, activating and closing the tab, etc).Analyzing user's real browsing time on a page, and extract the content, including a \textbf{web page content extraction algorithm} inside. The algorithm first removes html tags which are not related to content, and defines the concept of line block size as the number of characters in several continuous lines, and extract the densest area as approximately content is the densest area in the html file, Generate complete sequences of actions.
+\item \url{https://github.com/zhangruichang/UserBehaviorCollect}
+\end{itemize}
+\section{Honors}
+%\begin{spacing}{1}
+\textbf{VMware Award}, \emph{Fudan University} \hfill2014\\
+\textbf{1st Prize in EMC Guru Contest}, \emph{EMC Corp.} \hfill2014\\
+\textbf{Tencent Innovation Award}, \emph{Fudan University} \hfill2013\\
+\textbf{First Class Scholarship}, \emph{Fudan University}\hfill2013\\
+\textbf{Shanghai Outstanding Graduate Student}, \emph{Shanghai University}\hfill 2011\\
+\textbf{Excellent League Member, Excellent Student}, \emph{Shanghai University}\hfill 2011\\
+\textbf{Guanghua Scholarship}, \emph{Shanghai University}\hfill 2011\\
+\textbf{ACM ICPC Regional Contest, Hangzhou Site, Bronze medal}, \emph{ACM}\hfill 2010\\
+\textbf{Special Scholarship}, \emph{Shanghai University}\hfill 2011,2010,2009\\
+\textbf{Second Prize}, \emph{National Mathematics Contest for Undergraduate Student}\hfill 2009\\
+
+\section{Skills}
+%\begin{spacing}{1}
+\textbf{Computer Languages}:~C++$>$C$>$C$\sharp$ = Visual Basic = Java = Matlab,etc\\
+\textbf{Tools $\&\&$ Environments}:~Linux, \LaTeX, Git, hexo, etc\\
+\textbf{Foreign Language}:~English, CET4 578, CET6 554\\
+
+
+%\end{spacing}
+
+
+
+%\end{spacing}
+
+%\end{spacing}
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+
+\end{resume}
+\end{document}
+
+
+
