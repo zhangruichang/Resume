@@ -13,27 +13,25 @@
 
 % Center the name over the entire width of resume:
  \moveleft.5\hoffset\centerline{\large\bf Ruichang Zhang}
- \iffalse
-% Draw a horizontal line the whole width of resume:
- \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
-% address begins here
-% Again, the address lines must be centered over entire width of resume:
- \moveleft.5\hoffset\centerline{Address: Room 502, Yifu Building, \textbf{Fudan University}, 220 Handan Road, Shanghai 200433, China.}
- %\moveleft.5\hoffset\centerline{}
- %\moveleft.5\hoffset\centerline{}
- \moveleft.5\hoffset\centerline{Phone: (+86) 150-0022-6997, Email: rczhang@fudan.edu.cn}
-%\moveleft.5\hoffset\centerline{}
-\moveleft.5\hoffset\centerline{Homepage: }%{http://admis.fudan.edu.cn/$\sim$rczhang}}
-\fi
+ 
 \begin{resume}
 \setlength{\parskip}{0.1em}
 \section{Contact}
 %\begin{spacing}{1}
-\textbf{University:}~{\bf Fudan University}, Shanghai\hfill \textbf{Job Intension}:~Data Mining\\
+\textbf{University:}~{\bf Fudan University}, Shanghai\hfill \textbf{Job Intension}:~Data Mining Engineer\\
 \textbf{Email}:~zhangruichang112@gmail.com \hfill  \textbf{Phone}:~(+86) 150-0022-6997\\
-\textbf{Blog}: \url{http://zhangruichang.com} \hfill \textbf{Graduation Date}:~Jun. 2015\\
+\textbf{Blog}: \url{http://richardzhang.info} \hfill \textbf{Graduation Date}:~Jun. 2015\\
 \textbf{Personal Page}: \url{http://admis.fudan.edu.cn/~rczhang}
 %\end{spacing}
+
+\section{work experience}
+iQiyi Inc, Shanghai \hfill  Jun. 2015$\sim$ 现在
+\begin{itemize} \itemsep -1pt %reduce space between items
+\item Big data, recommendation group, data mining engineer
+\item CF, LR, GBDT based on hadoop for user personalized recommendation
+\item python, java for calculating, shell for pipeline control, hadoop/hive/hbase
+\end{itemize}
+
 \section{Education}
  {\bf Fudan University}, Master Degree in Computer Science\hfill Sep.2012$\sim$Jun.2015
  \begin{itemize} \itemsep -1pt  % reduce space between items
@@ -44,8 +42,12 @@
 \item GPA:~\textbf{3.678}/4, Rank:~\textbf{1}/227
 %\item GPA Ranking: 1/227
 \end{itemize}
+
 \section{Research and Interests}
-Data mining, Algorithm
+data mining clustering algorithm, recommendation, and distributed machine learning
+
+
+
 \section{Internship and Experience}
 %\begin{spacing}{1.2}
 \textbf{Nanyang Technological University}, Singapore \hfill Mar.2014$\sim$Aug.2014
@@ -56,7 +58,12 @@ Data mining, Algorithm
 \end{itemize}
 \begin{spacing}{1.5}
 \end{spacing}
-\textbf{iQiyi Data Mining Engineer}, Shanghai \hfill May.2015
+\textbf{iQiyi Data Mining Engineer}, Shanghai \hfill Mar.2015 $\sim$ Jun. 2015
+\begin{itemize}
+\item shell, python for trasferring data from MySQL to Hive，cronrab as timer
+\item generate movie topics
+\end{itemize}
+
 \section{Projects}
 Metagenomic Sequences Binning \hfill Sep.2013 $\sim$Mar.2014
 \begin{spacing}{0.02}
@@ -74,14 +81,8 @@ User Behavior Collecting and Analysing System \hfill Feb.2012$\sim$Jun.2012
 \item Using C$\sharp$, monitor user's actions on IE browser, analyze user's real browsing time on a page, and extract the content, including a \textbf{web page content extraction algorithm} inside. The algorithm first removes html tags which are not related to content, and defines the concept of line block size as the number of characters in several continuous lines, and extract the densest area as approximately content is the densest area in the html file.
 \item \url{https://github.com/zhangruichang/UserBehaviorCollect}
 \end{itemize}
-\section{Publication}
-\textbf{Ruichang Zhang}, Zhanzhan Cheng, Jihong Guan, Shuigeng Zhou*. ``Exploiting Topic Modeling to Boost Metagenomic Sequences Binning,'' \emph{10th International Symposium on Bioinformatics Research and Applications} (ISBRA 2014), vol.8492, LNCS, Springer.(\emph{12th Asia Pacific Bioinformatics Conference} (APBC2014), Poster.)\\
-\begin{spacing}{0.2}
-\end{spacing}
-Ruiqi Liao, \textbf{Ruichang Zhang}, Jihong Guan, Shuigeng Zhou*. ``A New Unsupervised Binning Approach for Metagenomic Sequences Based on N-grams and Automatic Feature Weighting,'' \emph{IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)}, 11(1): 42-54 (2014).\\
-\begin{spacing}{0.2}
-\end{spacing}
-Hui Liu, \textbf{Ruichang Zhang}, Wei Xiong, Jihong Guan, Ziheng Zhuang, Shuigeng Zhou*. ``A Comparative Evaluation on Prediction Methods of Nucleosome Positioning,''  \emph{Briefings in Bioinformatics}, Doi: 10.1093/bib/bbt062, 2013.\\
+
+
 \section{Honors}
 %\begin{spacing}{1}
 \textbf{VMware Award}, \emph{Fudan University} \hfill2014\\
@@ -94,10 +95,12 @@ Hui Liu, \textbf{Ruichang Zhang}, Wei Xiong, Jihong Guan, Ziheng Zhuang, Shuigen
 \textbf{Special Scholarship}, \emph{Shanghai University}\hfill 2011\\
 \textbf{Second Prize}, \emph{National Mathematics Contest for Undergraduate Student}\hfill 2009\\
 
+
+
 \section{Skills}
 %\begin{spacing}{1}
-\textbf{Computer Languages}:~C++ $>$ C $>$  Python = Matlab = Java = C$\sharp$, etc\\
-\textbf{Tools $\&\&$ Environments}:~Linux, \LaTeX, Git, etc\\
+\textbf{Computer Languages}:~C++ $>$ C $>$  Python $>$ Shell = Matlab = Java = C$\sharp$, etc\\
+\textbf{Tools $\&\&$ Environments}:~Linux, \LaTeX, Git, SVN, Hadoop, Hive, etc\\
 \textbf{Foreign Language}:~English, CET4 578, CET6 554\\
 
 
@@ -112,6 +115,5 @@ Hui Liu, \textbf{Ruichang Zhang}, Wei Xiong, Jihong Guan, Ziheng Zhuang, Shuigen
 
 \end{resume}
 \end{document}
-
 
 
